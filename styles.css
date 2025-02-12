@@ -1,0 +1,86 @@
+/* Общие стили */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f8e8e3;
+    color: #5a4a42;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Контейнер */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff8f2;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовок */
+header {
+    background: #e4c9c2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+header p {
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* Таблица */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #d7a89c;
+    color: white;
+}
+
+tr:hover {
+    background: #f1e3da;
+}
+
+/* Скрытые изображения */
+.image-row {
+    display: none;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.image-gallery img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Подвал */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #a67b68;
+    color: white;
+    border-radius: 5px;
+}
